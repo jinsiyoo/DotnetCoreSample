@@ -1,0 +1,23 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = tab
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.{js,py,json}]
+charset = utf-8
+
+[Makefile]
+indent_style = tab
+
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
