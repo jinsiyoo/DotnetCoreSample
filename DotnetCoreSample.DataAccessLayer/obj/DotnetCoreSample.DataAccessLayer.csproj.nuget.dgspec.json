@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample.DataAccessLayer/DotnetCoreSample.DataAccessLayer.csproj": {}
+  },
+  "projects": {
+    "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCore.Platform/DotnetCore.Platform.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCore.Platform/DotnetCore.Platform.csproj",
+        "projectName": "DotnetCore.Platform",
+        "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCore.Platform/DotnetCore.Platform.csproj",
+        "packagesPath": "/Users/jinsiyoo/.nuget/packages/",
+        "outputPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCore.Platform/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jinsiyoo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample.DataAccessLayer/DotnetCoreSample.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample.DataAccessLayer/DotnetCoreSample.DataAccessLayer.csproj",
+        "projectName": "DotnetCoreSample.DataAccessLayer",
+        "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample.DataAccessLayer/DotnetCoreSample.DataAccessLayer.csproj",
+        "packagesPath": "/Users/jinsiyoo/.nuget/packages/",
+        "outputPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample.DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jinsiyoo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCore.Platform/DotnetCore.Platform.csproj": {
+                "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCore.Platform/DotnetCore.Platform.csproj"
+              },
+              "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample/DotnetCoreSample.csproj": {
+                "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample/DotnetCoreSample.csproj"
+              },
+              "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/Model.DataAccessLayer.csproj": {
+                "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/Model.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample/DotnetCoreSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample/DotnetCoreSample.csproj",
+        "projectName": "DotnetCoreSample",
+        "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample/DotnetCoreSample.csproj",
+        "packagesPath": "/Users/jinsiyoo/.nuget/packages/",
+        "outputPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/DotnetCoreSample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jinsiyoo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/Model.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/Model.DataAccessLayer.csproj",
+        "projectName": "Model.DataAccessLayer",
+        "projectPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/Model.DataAccessLayer.csproj",
+        "packagesPath": "/Users/jinsiyoo/.nuget/packages/",
+        "outputPath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jinsiyoo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

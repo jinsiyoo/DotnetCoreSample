@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "og9g2tQ+ejIzm0lJwJyxpCyRv3H8plO33c3u9mRl+5L21iZ/FUFJ+MNnypAM1QX/en3e48xVeAWwLt/TS9VzIw==",
+  "success": true,
+  "projectFilePath": "/Users/jinsiyoo/Projects/VSCode/DotnetCoreSample/Model.DataAccessLayer/Model.DataAccessLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/jinsiyoo/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/jinsiyoo/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

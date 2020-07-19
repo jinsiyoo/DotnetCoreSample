@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "DotnetCore.Database"
+		},
+		{
+			"path": "DotnetCore.Platform"
+		},
+		{
+			"path": "DotnetCoreSample"
+		},
+		{
+			"path": "DotnetCoreSample.DataAccessLayer"
+		},
+		{
+			"path": "DotnetCoreSample.Helper"
+		},
+		{
+			"path": "DotnetCoreSample.Web"
+		},
+		{
+			"path": "Model.DataAccessLayer"
+		}
+	]
+}

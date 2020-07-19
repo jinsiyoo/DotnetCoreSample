@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCoreSample\DotnetCoreSample.csproj" />
+    <ProjectReference Include="..\DotnetCoreSample.Helper\DotnetCoreSample.Helper.csproj" />
+    <ProjectReference Include="..\DotnetCoreSample.DataAccessLayer\DotnetCoreSample.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Model.DataAccessLayer\Model.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>
