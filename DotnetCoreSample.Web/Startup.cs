@@ -2,16 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DotnetCoreSample.DataAccessLayer;
-using DotnetCoreSample.DataAccessLayer.Interface;
-using DotnetCoreSample.Helper;
-using DotnetCoreSample.Helper.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using DotnetCoreSample.Web.Helper;
+using DotnetCoreSample.Web.Provider;
+using DotnetCoreSample.Web.Provider.SqlProvider;
 
 namespace DotnetCoreSample.Web {
     public class Startup {
@@ -52,7 +51,7 @@ namespace DotnetCoreSample.Web {
 
         private void DIRegister (IServiceCollection services) {
             services.AddScoped<IAccountHelper, AccountHelper> ();
-            services.AddScoped<IAccountProvider, AccountProvider> ();
+			services.AddScoped<IAccountProvider, AccountProvider> ();
         }
     }
 }

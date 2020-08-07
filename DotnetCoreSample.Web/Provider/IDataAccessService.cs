@@ -1,13 +1,9 @@
 using System.Collections.Generic;
+using System.Data;
 
-namespace DotnetCore.Platform.DataAccess
+namespace DotnetCoreSample.Web.Provider
 {
-    public interface IDataAccessService
+    public interface IDataAccessService<T>
     {
-        IEnumerable<T> GetAll<T>();
-
-        void Query();
-
-        int GetCount();
     }
 }

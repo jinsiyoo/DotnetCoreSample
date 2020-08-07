@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DotnetCoreSample.Web.Models;
-using DotnetCoreSample.Helper.Interface;
-using Model.DataAccessLayer;
+using DotnetCoreSample.Web.Helper;
 
 namespace DotnetCoreSample.Web.Controllers
 {
@@ -25,7 +24,7 @@ namespace DotnetCoreSample.Web.Controllers
 
         public IActionResult Index()
         {
-            var users = _accountHelper.GetAllAccounts().Result;
+            var users = _accountHelper.GetAllAccounts();
             return View(users);
         }
 
