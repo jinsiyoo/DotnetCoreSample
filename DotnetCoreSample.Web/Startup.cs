@@ -9,16 +9,19 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DotnetCoreSample.Web.Helper;
-using DotnetCoreSample.Web.Provider;
 using DotnetCoreSample.Web.Provider.SqlProvider;
+using DotnetCoreSample.Web.Provider.Interface;
 
 namespace DotnetCoreSample.Web {
     public class Startup {
-        public Startup (IConfiguration configuration) {
+        public Startup (IConfiguration configuration, IWebHostEnvironment environment) {
             Configuration = configuration;
+			_environment = environment;
         }
 
         public IConfiguration Configuration { get; }
+
+		private IWebHostEnvironment _environment;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices (IServiceCollection services) {
@@ -51,7 +54,7 @@ namespace DotnetCoreSample.Web {
 
         private void DIRegister (IServiceCollection services) {
             services.AddScoped<IAccountHelper, AccountHelper> ();
-			services.AddScoped<IAccountProvider, AccountProvider> ();
+			services.AddScoped<IAccountProvider, SqliteAccountProvider> ();
         }
     }
 }

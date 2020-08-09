@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 using Dapper;
-using DotnetCoreSample.Web.Provider;
+using DotnetCoreSample.Web.Provider.Interface;
 
 namespace DotnetCoreSample.Web.Provider.SqlProvider
 {

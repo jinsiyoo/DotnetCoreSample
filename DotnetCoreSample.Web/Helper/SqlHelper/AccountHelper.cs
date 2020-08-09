@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 using DotnetCoreSample.Web.Models;
-using DotnetCoreSample.Web.Provider;
+using DotnetCoreSample.Web.Provider.Interface;
 
 namespace DotnetCoreSample.Web.Helper{
 

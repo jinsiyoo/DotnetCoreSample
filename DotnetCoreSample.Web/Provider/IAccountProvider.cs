@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using DotnetCoreSample.Web.Models;
 
-namespace DotnetCoreSample.Web.Provider
+namespace DotnetCoreSample.Web.Provider.Interface
 {
 	public interface IAccountProvider
     {

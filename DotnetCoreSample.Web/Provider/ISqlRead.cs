@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace DotnetCoreSample.Web.Provider.SqlProvider
+namespace DotnetCoreSample.Web.Provider.Interface
 {
-    public interface ISqlProvider<T>
+    public interface ISqlRead<T>
     {
 		/// <summary>
 		/// 查詢資料
